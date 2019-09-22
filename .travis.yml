@@ -1,0 +1,12 @@
+language: go
+
+go:
+  - master
+
+before_script:
+  - wget https://github.com/centrifugal/centrifugo/releases/download/v2.2.2/centrifugo_2.2.2_linux_amd64.tar.gz
+  - tar xzf centrifugo_2.2.2_linux_amd64.tar.gz
+  - ./centrifugo_2.2.2_linux_amd64/centrifugo --config config.centrifugo.test.json --log_level=debug
+
+script:
+  - go build
