@@ -17,8 +17,6 @@ var (
 
 	as = flag.String("as", "", "proxy ID")
 	to = flag.String("to", "", "proxy target ID")
-
-	nodeID = flag.String("node", "", "node ID")
 )
 
 func main() {
