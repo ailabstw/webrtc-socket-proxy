@@ -1,6 +1,7 @@
 # webrtc-socket-proxy
 
-![](https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master)
+![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
+![travis-ci](https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master)
 
 Peer-to-peer TCP socket proxy with WebRTC, use [centrifugo](https://centrifugal.github.io/centrifugo/) as the signal server.
 
@@ -27,7 +28,7 @@ $ webrtc-socket-proxy -signal=<SIGNAL_SERVER_ADDR> -secret=<SIGNAL_SERVER_SECRET
 
 ## Roadmap
 
-- [ ] Multiplex Connections
+- [ ] Multiplex Connections. Currently we only support one connnection per proxy
 
 ## License
 
