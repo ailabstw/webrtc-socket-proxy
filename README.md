@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/stability-experimental-orange.svg">
-  <img src="https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master">
+  <img src="https://travis-ci.org/ailabstw/webrtc-socket-proxy.svg?branch=master">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a><br />
   <br />
   <img src="./how.png"><br/>
