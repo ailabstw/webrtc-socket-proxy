@@ -1,6 +1,6 @@
-# webrtc-socket-proxy
-
 ![How it works](how.png)
+
+# webrtc-socket-proxy
 
 ![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
 ![travis-ci](https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master)
