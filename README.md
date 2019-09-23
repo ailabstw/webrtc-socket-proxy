@@ -1,11 +1,15 @@
-![How it works](how.png)
+<h1 align="center">
+  <img src="./how.png">
+  webrtc-socket-proxy
+</h1>
+<h4 align="center">Peer-to-peer TCP socket proxy using WebRTC, with [centrifugo](https://centrifugal.github.io/centrifugo/) as the signal server.</h4>
 
-# webrtc-socket-proxy
-
-![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
-![travis-ci](https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master)
-
-Peer-to-peer TCP socket proxy using WebRTC, with [centrifugo](https://centrifugal.github.io/centrifugo/) as the signal server.
+<p align="center">
+  <img src="https://img.shields.io/badge/stability-experimental-orange.svg">
+  <img src="https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+</p>
+<br />
 
 ## Setup
 
