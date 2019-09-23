@@ -1,5 +1,7 @@
 # webrtc-socket-proxy
 
+![How it works](how.png)
+
 ![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
 ![travis-ci](https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master)
 
@@ -13,7 +15,7 @@ Peer-to-peer TCP socket proxy with WebRTC, use [centrifugo](https://centrifugal.
 $ go get -u github.com/poga/webrtc-socket-proxy
 ```
 
-* Setup [centrifugo](https://github.com/centrifugal/centrifugo/releases) with [example config](config.centrifugo.test.json)>
+* Setup [centrifugo](https://github.com/centrifugal/centrifugo/releases) with [example config](config.centrifugo.test.json).
 
 ## Usage
 
@@ -28,7 +30,8 @@ You can send data to your `<upstreamAddr>` via connecting to `:4444` now.
 
 ## Roadmap
 
-- [ ] Multiplex Connections. Currently we only support one connnection per proxy
+- [ ] TURN server support
+- [ ] Multiplex Connections. Currently we only support one connnection per proxy-pair
 
 ## License
 
