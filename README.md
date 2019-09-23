@@ -1,5 +1,4 @@
 <h1 align="center">
-  <img src="./how.png"><br/>
   webrtc-socket-proxy
 </h1>
 <h4 align="center">Peer-to-peer TCP socket proxy using WebRTC<br/> with <a href="https://centrifugal.github.io/centrifugo/">centrifugo</a> as the signal server</h4>
@@ -7,7 +6,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/stability-experimental-orange.svg">
   <img src="https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a><br />
+  <img src="./how.png"><br/>
 </p>
 <br />
 
