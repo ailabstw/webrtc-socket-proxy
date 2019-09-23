@@ -1,7 +1,7 @@
 <h1 align="center">
   webrtc-socket-proxy
 </h1>
-<h4 align="center">Peer-to-peer TCP socket proxy using WebRTC<br/> with <a href="https://centrifugal.github.io/centrifugo/">centrifugo</a> as the signal server</h4>
+<h4 align="center">Peer-to-peer TCP socket proxy using WebRTC, with <a href="https://centrifugal.github.io/centrifugo/">centrifugo</a> as the signal server</h4>
 
 <p align="center">
   <img src="https://img.shields.io/badge/stability-experimental-orange.svg">
