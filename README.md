@@ -15,16 +15,16 @@ $ go get -u github.com/poga/webrtc-socket-proxy
 
 * Setup [centrifugo](https://github.com/centrifugal/centrifugo/releases) with [example config](config.centrifugo.test.json)>
 
-* Start proxies
+## Usage
 
 ```
+# the `As` proxy
 $ webrtc-socket-proxy -signal=<SIGNAL_SERVER_ADDR> -secret=<SIGNAL_SERVER_SECRET> -as=<PEER_ID> -upstreamAddr=localhost:8000
+# the `To` proxy
 $ webrtc-socket-proxy -signal=<SIGNAL_SERVER_ADDR> -secret=<SIGNAL_SERVER_SECRET> -to=<PEER_ID> -listen=:4444
 ```
 
-
-## Usage
-
+You can send data to your `<upstreamAddr>` via connecting to `:4444` now.
 
 ## Roadmap
 
