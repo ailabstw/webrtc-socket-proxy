@@ -7,9 +7,9 @@
   <img src="https://img.shields.io/badge/stability-experimental-orange.svg">
   <img src="https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a><br />
+  <br />
   <img src="./how.png"><br/>
 </p>
-<br />
 
 ## Setup
 
