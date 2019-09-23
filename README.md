@@ -5,7 +5,7 @@
 ![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
 ![travis-ci](https://travis-ci.org/poga/webrtc-socket-proxy.svg?branch=master)
 
-Peer-to-peer TCP socket proxy with WebRTC, use [centrifugo](https://centrifugal.github.io/centrifugo/) as the signal server.
+Peer-to-peer TCP socket proxy using WebRTC, with [centrifugo](https://centrifugal.github.io/centrifugo/) as the signal server.
 
 ## Setup
 
