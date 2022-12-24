@@ -13,13 +13,13 @@
 
 ## Setup
 
-* Install `webrtc-socket-proxy`
+* Install `webrtc-socket-proxy` on both peers
 
 ```
 $ go get -u github.com/poga/webrtc-socket-proxy
 ```
 
-* Setup [centrifugo](https://github.com/centrifugal/centrifugo/releases) with [example config](config.centrifugo.test.json).
+* On the third machine with a dedicated IP, setup [centrifugo](https://github.com/centrifugal/centrifugo/releases) with [example config](config.centrifugo.test.json).
 
 ## Usage
 
@@ -30,7 +30,7 @@ $ webrtc-socket-proxy -signal=<SIGNAL_SERVER_ADDR> -secret=<SIGNAL_SERVER_SECRET
 $ webrtc-socket-proxy -signal=<SIGNAL_SERVER_ADDR> -secret=<SIGNAL_SERVER_SECRET> -to=<PEER_ID> -listen=:4444
 ```
 
-You can send data to your `<upstreamAddr>` via connecting to `:4444` now.
+You can send data from the `As` machine to your `<upstreamAddr>` via connecting to `:4444` of the `To` machine now.
 
 ## Roadmap
 
