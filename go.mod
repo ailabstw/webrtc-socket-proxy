@@ -10,6 +10,5 @@ require (
 	github.com/jpillora/backoff v0.0.0-20180909062703-3050d21c67d7 // indirect
 	github.com/pion/webrtc/v2 v2.1.0
 	github.com/rs/zerolog v1.15.0
-	golang.org/x/crypto v0.0.0-20190411191339-88737f569e3a
-	google.golang.org/grpc v1.23.1
+	golang.org/x/crypto v0.1.0 // indirect
 )
